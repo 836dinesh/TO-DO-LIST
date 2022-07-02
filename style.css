@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.form {
+    position: absolute;
+    top: 10%;
+    box-shadow: 0 4px 8px;
+    border-radius: 10px;
+    border: dotted;
+    width: 400px;
+
+}
+
+.input {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 20px;
+    border-radius: 10px 10px 0 0;
+
+}
+
+.list {
+    padding: 0;
+    margin: 0;
+}
+
+.list li {
+    list-style-type: none;
+    padding: 20px;
+    font-family: cursive;
+    border-top: double;
+    position: relative;
+}
+
+.list li .fa-trash {
+    position: absolute;
+    cursor: pointer;
+    right: 10px;
+}
+
+.list li .fa-square-check {
+    position: absolute;
+    cursor: pointer;
+    right: 35px;
+}
